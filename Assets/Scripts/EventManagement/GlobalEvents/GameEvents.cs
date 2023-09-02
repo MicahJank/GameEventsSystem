@@ -21,6 +21,10 @@ public static class GameEvents
     {
         eventBus.RegisterListener<T>(eventDelegate);
     }
+    public static void UnregisterListener<T>(EventBusDelegate<T> eventDelegate) where T : struct, IEventDefinition
+    {
+        eventBus.RemoveListener<T>(eventDelegate);
+    }
 
     #endregion
 

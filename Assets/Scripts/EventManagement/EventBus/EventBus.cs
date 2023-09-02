@@ -83,19 +83,3 @@ public class EventBus
 
     #endregion
 }
-
-
-
-
-//if (eventRegistry.TryGetValue(typeof(T), out Delegate d))
-//{
-
-//}
-
-//if (!eventRegistry.ContainsKey(typeof(T)))
-//{
-//    //Delegate.Combine(d, gameEvent)
-//    eventRegistry.Add(typeof(T), eventDelegate);
-//}
-//else Debug.LogError("Event of type : " + typeof(T).GetType().ToString() +
-//       " is already contained within EventRegistry Collection");

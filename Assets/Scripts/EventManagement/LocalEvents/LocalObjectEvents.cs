@@ -32,8 +32,8 @@ public class LocalObjectEvents : MonoBehaviour
 
         var parentComponents = gameObject.GetComponents<ILocalEventsDependant>();
         var childComponents = gameObject.GetComponentsInChildren<ILocalEventsDependant>();
-
         var allDependants = new List<ILocalEventsDependant>();
+
         allDependants.AddRange(parentComponents);
         allDependants.AddRange(childComponents);
 
@@ -46,23 +46,3 @@ public class LocalObjectEvents : MonoBehaviour
     #endregion
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//var localDependants = GetComponents<ILocalEventsDependant>();
-//var childDependants = GetComponentsInChildren<ILocalEventsDependant>();
-//List<ILocalEventsDependant> allDependants = new List<ILocalEventsDependant>();
-//allDependants.AddRange(localDependants);
-//allDependants.AddRange(childDependants);
