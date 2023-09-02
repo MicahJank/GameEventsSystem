@@ -1,0 +1,17 @@
+{
+    "name": "Core.EventManagement",
+    "rootNamespace": "",
+    "references": [
+        "GUID:418937bc5d50aa64cace6e0ed5e8f145",
+        "GUID:07987a12e0b6f7948a14167b38a89980"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
